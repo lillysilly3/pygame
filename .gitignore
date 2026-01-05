@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Files to not commit
+game_state.jsonl
