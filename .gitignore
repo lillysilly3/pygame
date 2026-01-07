@@ -11,3 +11,4 @@ wheels/
 
 # Files to not commit
 game_state.jsonl
+game_events.jsonl
