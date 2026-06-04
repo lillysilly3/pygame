@@ -27,9 +27,13 @@ The player controls a triangular ship in the centre of the screen. Asteroids spa
 |   `D`   | Rotate right    |
 | `Space` | Shoot           |
 
-## Getting Started
+## Prerequisites
 
-Requires Python 3.13+ and [uv](https://docs.astral.sh/uv/).
+- Python 3.13+
+- [uv](https://docs.astral.sh/uv/) package manager
+- [Pygame](https://www.pygame.org/) (installed automatically via `uv sync`)
+
+## Getting Started
 
 ```bash
 git clone https://github.com/lillysilly3/asteroid-game.git
@@ -55,7 +59,7 @@ asteroid-game/
 └── uv.lock
 ```
 
-## What I Learned
+## What I Explored
 
 - **Pygame fundamentals** — Game loop, event handling, sprite groups, and display rendering
 - **OOP with inheritance** — Shared `CircleShape` base class for collision logic across all game objects
